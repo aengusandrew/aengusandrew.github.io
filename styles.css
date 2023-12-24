@@ -39,13 +39,18 @@ nav li a:hover {
 
 .banner {
     background-image: url(images/point.jpg);
+<<<<<<< HEAD
     background-repeat: no-repeat;
     height: 200px;
     background-position: center;
+=======
+    height: 200px;
+>>>>>>> 27c88a91ba33f8c4d706492769a5d66a64f789e2
 }
 
 .banner h1, .banner h2 {
     text-align: center;
+<<<<<<< HEAD
     padding-top: 40px; 
     color: rgb(219, 219, 219); 
 }
@@ -54,6 +59,10 @@ nav li a:hover {
 
 .intro {
     padding: 30px;
+=======
+    position: relative;
+    height: 200px;
+>>>>>>> 27c88a91ba33f8c4d706492769a5d66a64f789e2
 }
 
 /* FOOTER */
