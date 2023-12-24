@@ -56,6 +56,24 @@ nav li a:hover {
     padding: 30px;
 }
 
+.about {
+    padding: 15px;
+    text-align: justify;
+}
+
+.about .me_pic img {
+    float: right;
+    border: 2px solid black;
+    margin-left: 15px;
+    height: 400px;
+}
+
+.about .clarkson_pic img {
+    float: left;
+    margin-right: 15px;
+    height: 150px;
+}
+
 /* FOOTER */
 
 footer {
@@ -98,4 +116,13 @@ footer a {
 hr {
     background-color: black;
     border-color: black;
+}
+
+a.in-text {
+    text-decoration: none;
+    color: black;
+}
+
+a.in-text:hover {
+    text-decoration: underline;
 }
