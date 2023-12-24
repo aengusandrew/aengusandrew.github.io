@@ -37,10 +37,15 @@ nav li a:hover {
 
 /* BANNER */
 
+.banner {
+    background-image: url(images/point.jpg);
+    height: 200px;
+}
 
-
-section.banner h1 {
+.banner h1, .banner h2 {
     text-align: center;
+    position: relative;
+    
 }
 
 /* FOOTER */
