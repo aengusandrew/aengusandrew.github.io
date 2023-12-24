@@ -39,13 +39,21 @@ nav li a:hover {
 
 .banner {
     background-image: url(images/point.jpg);
+    background-repeat: no-repeat;
     height: 200px;
+    background-position: center;
 }
 
 .banner h1, .banner h2 {
     text-align: center;
-    position: relative;
-    
+    padding-top: 40px; 
+    color: rgb(219, 219, 219); 
+}
+
+/* BODY */
+
+.intro {
+    padding: 30px;
 }
 
 /* FOOTER */
@@ -79,6 +87,10 @@ footer a {
 
 .github {
     background-image: url(images/socials/github.png);
+}
+
+.email {
+    background-image: url(images/socials/gmail.png);
 }
 
 /* MISC */
